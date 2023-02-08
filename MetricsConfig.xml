@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ChitraguptaConfig >
+  <ResourceName>Netflix</ResourceName>
+  <ApplicationName>NetfxServerS1</ApplicationName>
+  <MetricsInterval>60</MetricsInterval>
+  <MetricsBatchInterval>60</MetricsBatchInterval>
+  <Authorization>
+    <LM_COMPANY>qauattraces01</LM_COMPANY>
+    <LM_ACCESS_ID>mQ7ef7535U95p6fvNf68</LM_ACCESS_ID>
+    <LM_ACCESS_KEY>lma_zPhg54~I862M8yNqz5AV-%Q6Mj7Ar6c7%hG}E(n4Uxi7U^IN-M5xP6N8_=76LOTZlNGVmNzAtNDAzMy00YmUyLWFjMWYtYWJlM2Y3OWQxM2VjL2uubwj</LM_ACCESS_KEY>
+  </Authorization>
+  <Counters>
+    <key>Microsoft.AspNetCore.Hosting</key>
+      <value>Total Requests</value>
+      <value>Failed Requests</value>
+      <value>Request Rate</value>
+  </Counters>
+    <Counters>
+    <key>System.Runtime</key>
+      <value>Gen 0 Size</value>
+      <value>Allocation Rate</value>
+      <value>Exception Count</value>
+      <value>GC Heap Size</value>
+      <value>CPU Usage</value>
+      <value>Working Set</value>
+  </Counters>
+  <Counters>
+      <key>System.Net.Sockets</key>
+      <value>Bytes Received</value>
+      <value>Bytes Sent</value>
+      <value>Datagrams Received</value>
+      <value>Datagrams Sent</value>
+  </Counters>
+
+</ChitraguptaConfig>
+
+
