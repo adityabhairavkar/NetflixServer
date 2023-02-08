@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<ChitraguptaConfig >
-  <ResourceName>Netflix</ResourceName>
-  <ApplicationName>NetfxServerS1</ApplicationName>
+<MetricsConfig> 
+  <ResourceName>Netflix</ResourceName>                <!--Resource name displayed on LM platform-->
+  <ApplicationName>NetflixServer</ApplicationName>    <!--Resource group name displayed on LM platform-->
   <MetricsInterval>60</MetricsInterval>
   <MetricsBatchInterval>60</MetricsBatchInterval>
-  <Authorization>
-    <LM_COMPANY>qauattraces01</LM_COMPANY>
-    <LM_ACCESS_ID>mQ7ef7535U95p6fvNf68</LM_ACCESS_ID>
-    <LM_ACCESS_KEY>lma_zPhg54~I862M8yNqz5AV-%Q6Mj7Ar6c7%hG}E(n4Uxi7U^IN-M5xP6N8_=76LOTZlNGVmNzAtNDAzMy00YmUyLWFjMWYtYWJlM2Y3OWQxM2VjL2uubwj</LM_ACCESS_KEY>
-  </Authorization>
+
   <Counters>
-    <key>Microsoft.AspNetCore.Hosting</key>
-      <value>Total Requests</value>
+    <key>Microsoft.AspNetCore.Hosting</key>           <!--Datasource and datasource instance name displayed on LM platform-->
+      <value>Total Requests</value>                   <!--Datapoint for above datasource -->
       <value>Failed Requests</value>
       <value>Request Rate</value>
   </Counters>
@@ -31,7 +27,6 @@
       <value>Datagrams Received</value>
       <value>Datagrams Sent</value>
   </Counters>
-
-</ChitraguptaConfig>
+</MetricsConfig>
 
 

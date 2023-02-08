@@ -6,4 +6,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="7.0.0" />
+    <PackageReference Include="Chitragupta" Version="1.1.3-alpha" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="OpenTelemetry" Version="1.4.0-rc.3" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.4.0-rc.3" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs" Version="1.4.0-rc.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="NLogs.Targets.LogicMonitor" />
+    <None Remove="Chitragupta" />
+    <None Remove="Microsoft.Extensions.Logging" />
+    <None Remove="OpenTelemetry" />
+    <None Remove="OpenTelemetry.Exporter.OpenTelemetryProtocol" />
+    <None Remove="OpenTelemetry.Exporter.Console" />
+    <None Remove="OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs" />
+  </ItemGroup>
 </Project>
